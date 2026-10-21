@@ -16,7 +16,7 @@ test("server responds with the correct message", async () => {
         assert.equal(response.status, 200);
         assert.equal(
             await response.text(),
-            "Hello! Node.js CI/CD Pipeline is working."
+            "Hell0! Node.js CI/CD Pipeline is working."
         );
     } finally {
         await new Promise((resolve, reject) => {
