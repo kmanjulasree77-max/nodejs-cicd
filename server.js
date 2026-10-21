@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
         "Content-Type": "text/plain"
     });
 
-    res.end("Hello! Node.js CI/CD Pipeline is working1.");
+    res.end("Hello! Node.js CI/CD Pipeline is working.");
 });
 
 if (require.main === module) {
